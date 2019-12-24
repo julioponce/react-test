@@ -1,0 +1,39 @@
+.input-wrapper {
+  position: relative;
+}
+
+.input {
+  width: 190px;
+  height: 52px;
+  position: relative;
+  padding: 6px 12px;
+  border-radius: 4px;
+  border: solid 1px #d6dcff;
+  background-color: #ffffff;
+  font-size: 3.6rem;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: 0.77px;
+  text-align: right;
+}
+
+.small {
+  width: 67px;
+}
+
+.dollar {
+  position: absolute;
+  left: 12px;
+  top: 6px;
+  opacity: 0.24;
+  font-size: 2.4rem;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: 0.51px;
+  color: #000;
+  margin: 0;
+}

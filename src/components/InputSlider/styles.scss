@@ -1,0 +1,32 @@
+.input-slider{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 46px;
+
+  .count {
+    font-size: 4rem;
+    color: #000;
+  }
+
+  .rc-slider {
+    width: 536px;
+  }
+
+  .info-slider {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 22px;
+
+    .label {
+      font-size: 1.4rem;
+      font-weight: bold;
+      line-height: normal;
+      margin: 0;
+    }
+  }
+}

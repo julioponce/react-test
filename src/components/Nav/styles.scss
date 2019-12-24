@@ -1,0 +1,53 @@
+.nav {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  ul {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+    li {
+      height: 100%;
+      margin: 0 20px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+.link {
+  height: 100%;
+  text-decoration: none;
+  font-family: Roboto;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: $theme-primary-color;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+
+  &.active {
+    position: relative;
+    
+    &::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 4px;
+      background-color: $theme-primary-color;
+    }
+  }
+}
+
+
